@@ -1,0 +1,41 @@
+# .github/workflows/deploy-book.yml
+name: Render y publicar libro
+
+on:
+  pull_request:
+    types: [closed]
+
+jobs:
+  build-and-deploy:
+    if: github.event.pull_request.merged == true && github.event.pull_request.base.ref == 'main'
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      contents: read
+      id-token: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Quarto
+        uses: quarto-dev/quarto-actions/setup-quarto@v2
+        with:
+          quarto-version: 'latest'
+
+      # Si usas R y dependencias, añade aquí setup-r e instalación de paquetes
+
+      - name: Render book
+        run: quarto render #--to html    # ajusta si tu salida es _book, _site u otra
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v3
+
+      - name: Upload site to Pages
+        uses: actions/upload-pages-artifact@v1
+        with:
+          path: docs    # <-- cambia a la carpeta de salida real (ej. _site, _book, _site/site)
+
+# GitHub Pages desplegará automáticamente el artefacto publicado
