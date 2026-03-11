@@ -1,0 +1,4 @@
+
+# Ciencia de Datos y Big Data aplicados al turismo
+
+ciencia-datos-turismo.qmd

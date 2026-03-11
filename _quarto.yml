@@ -1,15 +1,30 @@
 project:
   type: book
+  output-dir: docs
 
 book:
-  title: "ciencia-de-datos-turismo"
-  author: "Norah Jones"
-  date: "3/11/2026"
+  title: "Ciencia de Datos Aplicada al Turismo"
+  author: "Emilio López Cano y Javier Martínez Moguerza"
+  date: "2026-03-11"
   chapters:
     - index.qmd
-    - intro.qmd
-    - summary.qmd
+    - part: ciencia-datos-digitalizacion.qmd
+      chapters:
+      - ciencia-datos-turismo.qmd
+      - analisis-exploratorio.qmd
+      - intro-aprendizaje-estadistico.qmd
+    - part: aprendizaje-supervisado.qmd
+      chapters:
+      - modelos-lineales.qmd
+      - modelos-regresion.qmd
+      - modelos-clasificacion.qmd
+    - part: aprendizaje-no-supervisado.qmd
+      chapters:
+      - analisis-conglomerados.qmd
+      - reduccion-dimensionalidad.qmd
+      - nuevas-tendencias.qmd
     - references.qmd
+  page-footer: "© 2026 Emilio López Cano y Javier Martínez Moguerza. Todos los derechos reservados."
 
 bibliography: references.bib
 

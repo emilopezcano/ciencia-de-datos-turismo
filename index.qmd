@@ -1,5 +1,36 @@
-# Preface {.unnumbered}
+# Prefacio {.unnumbered}
 
-This is a Quarto book.
+Este libro ha sido creado como material princiupal de la asignatura "Ciencia de Datos y Big Data" del Máster en Dirección Internacional del Turismo de la Universidad Rey Juan Carlos. No obstante, el material es de libre acceso y puede ser utilizado por cualquier persona interesada en la materia.
 
-To learn more about Quarto books visit <https://quarto.org/docs/books>.
+## Estructura del libro
+
+**Bloque I.- Ciencia de Datos, Big Data y digitalización**
+
+Tema 1.- Ciencia de Datos y Big Data aplicados al turismo
+
+Tema 2.- Tratamiento de datos y análisis exploratorio
+
+Tema 3.- Aprendizaje estadístico
+
+**Bloque II.- Aprendizaje supervisado**
+
+Tema 4. Modelos lineales
+
+Tema 5. Modelos de regresión
+
+Tema 6: Modelos de clasificación
+
+**Bloque III.- Aprendizaje no supervisado y nuevas tendencias**
+
+Tema 7. Análisis de conglomerados
+
+Tema 8. Técnicas de reducción de dimensionalidad
+
+Tema 9. Nuevas tendencias
+
+## Acerca de los autores
+
+Emilio López Cano es Titular de Universidad en la Universidad Rey Juan Carlos, donde imparte docencia en el ámbito de la ciencia de datos aplicada al turismo, entre otras materias.
+
+Javier Martínez Moguerza es Catedrático de Universidad en la Universidad Rey Juan Carlos y director del Grupo de Investigación en Fundamentos y Aplicaciones de la Ciencia de datos (DSLAB), parte del Centro de Investigación en Tecnologías Inteligentes de la Información y sus Aplicaciones (CETINIA).
+
