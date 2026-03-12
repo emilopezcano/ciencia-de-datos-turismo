@@ -25,6 +25,9 @@ book:
       - nuevas-tendencias.qmd
     - references.qmd
   page-footer: "© 2026 Emilio López Cano y Javier Martínez Moguerza. Todos los derechos reservados."
+render:
+  - "*.qmd"
+  - "!_slides/"
 
 bibliography: references.bib
 

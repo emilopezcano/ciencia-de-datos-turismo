@@ -1,0 +1,72 @@
+---
+title: "Ciencia de Datos Aplicada al Turismo"
+subtitle: "**Master Universitario en Dirección Internacional del Turismo**<br/>Universidad Rey Juan Carlos"
+author: "Emilio López Cano y Javier Martínez Moguerza"
+format: 
+  revealjs:
+    theme: ["white", "/styles/urjc.scss"]
+    transition: "fade"
+    controls: true
+    progress: true
+    slide-number: true
+    auto-stretch: true
+    center: false
+    lang: es
+    width: 1280
+    height: 720
+    filters: 
+      - styles/metropolis-header.lua
+      - styles/custom-block.lua
+    logo: img/URJClogo.png
+    title-slide-attributes:
+      data-background-image: img/background_fronpage.png
+      data-background-size: 33%
+      data-background-position: center 70%
+---
+
+# Contenidos
+
+## Bloque I 
+
+\
+
+### Ciencia de Datos, Big Data y digitalización
+
+\
+
+[Tema 1.- Ciencia de Datos y Big Data aplicados al turismo](ciencia-datos-turismo.qmd)
+
+[Tema 2.- Tratamiento de datos y análisis exploratorio](analisis-exploratorio.qmd)
+
+[Tema 3.- Aprendizaje estadístico](intro-aprendizaje-estadistico.qmd)
+
+## Bloque II 
+
+\
+
+### Aprendizaje supervisado
+
+\
+
+[Tema 4.- Modelos lineales](modelos-lineales.qmd)
+
+[Tema 5.- Modelos de regresión](modelos-regresion.qmd)
+
+[Tema 6.- Modelos de clasificación](modelos-clasificacion.qmd)
+
+## Bloque III 
+
+\ 
+
+### Aprendizaje no supervisado y nuevas tendencias
+
+\
+
+[Tema 7.- Análisis de conglomerados](analisis-conglomerados.qmd)
+
+[Tema 8.- Técnicas de reducción de dimensionalidad](tecnicas-reduccion-dimensionalidad.qmd)
+
+[Tema 9.- Nuevas tendencias](nuevas-tendencias.qmd)
+
+
+ 
