@@ -1,5 +1,38 @@
 ---
-title: "Untitled"
-format: revealjs
+title: "Ciencia de Datos y Big Data aplicados al turismo"
+subtitle: "**Master Universitario en Dirección Internacional del Turismo**<br/>Universidad Rey Juan Carlos"
+author: "Emilio López Cano y Javier Martínez Moguerza"
+format: 
+  revealjs:
+    theme: ["white", "/styles/urjc.scss"]
+    transition: "fade"
+    controls: true
+    progress: true
+    slide-number: true
+    auto-stretch: true
+    center: false
+    lang: es
+    width: 1280
+    height: 720
+    filters: 
+      - styles/metropolis-header.lua
+      - styles/custom-block.lua
+    logo: img/URJClogo.png
+    title-slide-attributes:
+      data-background-image: img/background_fronpage.png
+      data-background-size: 33%
+      data-background-position: center 70%
 ---
+
+# Ciencia de Datos, Big Data, Inteligencia Artificial
+
+## Ciencia de Datos
+
+## Big Data
+
+## Inteligencia Artificial
+
+# Datos de Turismo
+
+## Fuentes de datos
 
